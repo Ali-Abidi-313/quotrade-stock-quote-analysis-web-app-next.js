@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Quotrade – Stock Quote Analysis Web App
 
-## Getting Started
+A real-time stock monitoring platform built using **Next.js (Full Stack)** with **Tailwind CSS** for elegant UI and **MongoDB** for efficient data management. The app allows users to track live market prices, analyze stock performance, and maintain a personalized watchlist.
 
-First, run the development server:
+---
 
+## 🔥 Tech Stack
+
+| Technology | Usage |
+|------------|--------|
+| **Next.js** | Full Stack (frontend + backend) |
+| **React.js** | Component-based UI |
+| **Tailwind CSS** | Modern and responsive styling |
+| **MongoDB** | Database & stock data management |
+| **JWT** | Secure user authentication |
+| **RESTful APIs** | Live market data fetching |
+
+---
+
+## 📌 Features
+
+- 📡 **Real-time Stock Updates**
+- 📊 **Performance Analysis & Metrics**
+- 📝 **Custom Watchlist**
+- 🔐 **JWT Authentication**
+- ⚡ **API Call Optimization (Caching)**
+- 🔁 **Next.js Server & Client Integrated**
+- 🎨 **Tailwind CSS Responsive UI**
+
+---
+
+## 📂 Folder Structure
+```
+Quotrade/
+├── pages/ # Next.js pages (frontend + backend API routes)
+├── components/ # Reusable UI components
+├── lib/ # MongoDB database connection
+├── models/ # Mongoose models
+├── styles/ # Global styles
+├── public/ # Static assets
+└── .env # Environment variables
+```
+## 🚀 Getting Started
+
+This is a **Next.js** project bootstrapped with  
+[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+###3️⃣Set up environment variables (.env)
+MONGODB_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret_key
+API_KEY=your_market_data_api_key
+NEXT_PUBLIC_API_URL=http://localhost:3000
+
+---
+
+## 🚢 Deployment
+
+Deploy the app easily using **Vercel**, the creators of Next.js:  
+👉 https://vercel.com/new
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📬 Contact
+
+**Developer:** Ali Abidi  
+📧 **Email:** abidiali951@gmail.com  
+🔗 **LinkedIn:** *(https://www.linkedin.com/in/ali-abidi-99932433b/)* 
+🔗 **GitHub:** *(https://github.com/Ali-Abidi-313)*
+
+
+---
+
+### 1️⃣ Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Ali-Abidi-313/quotrade-stock-quote-analysis-web-app-next.js.git
+cd Quotrade
+
+---
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> _“Quotrade – Track. Analyze. Grow.”_ 📈
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
