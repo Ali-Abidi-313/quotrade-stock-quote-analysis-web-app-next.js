@@ -203,7 +203,7 @@ function Tabs({ current, onChange }) {
           key={t.id}
           onClick={() => onChange(t.id)}
           className={`px-4 py-2 rounded-full text-sm font-medium transition-all border
-            ${current === t.id ? "bg-indigo-600 text-white border-indigo-600 shadow" : "bg-white text-slate-700"}`}
+            ${current === t.id ? "bg-[#5cdb95] text-white border-[#5cdb95] shadow" : "bg-white text-slate-700"}`}
         >
           {t.label}
         </button>

@@ -1,8 +1,15 @@
 import React from 'react';
 import Signup from './Signup';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 function SignHome() {
   return (
-    <Signup/>
+    <div>
+      <Navbar/>
+      <Signup/>
+      <Footer />
+    </div>
+    
 
 
     );

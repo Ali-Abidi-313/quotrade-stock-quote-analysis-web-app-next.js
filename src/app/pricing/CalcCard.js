@@ -4,11 +4,17 @@ import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import React, { useState } from 'react';
 import { Roboto } from 'next/font/google';
 import LayoutInput from "./LayoutInput";
+import ComputeValues from "./ComputeValues";
 
 const roboto = Roboto({
   weight: [ '300','400','700',],
   subsets: ['latin'],
 })
+
+function formatINR(n) {
+  return n.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
 function CalcCard({tittle , segment , subtype , stsell , stbuy , stquantity , stexch}) {
   const [sell , setSell] = useState(stsell);
   const [buy , setBuy] = useState(stbuy);

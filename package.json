@@ -2,6 +2,7 @@
   "name": "quotrade",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,8 +16,13 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "aos": "^2.3.4",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
     "framer-motion": "^12.23.12",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.0.0",
     "next": "^15.4.6",
+    "path": "^0.12.7",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "terser-webpack-plugin": "^5.3.14"

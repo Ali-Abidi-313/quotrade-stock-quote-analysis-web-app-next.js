@@ -14,6 +14,7 @@ import ChargesExplained from './ChargesExplained';
 import Footer from '@/components/Footer';
 import BrokerageCalculator from './BrokerageCalculator';
 import Tempcalc from './temp';
+import CalculatorTable from './Calculator';
 
 function PricingHome() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function PricingHome() {
       currencytable={[{name:"Brokerage" , futures:"0.03% or ₹20/executed order whichever is lower" , options:"₹20/executed order"} ,{name:"STT/CTT" , futures:"No STT" , options:"No STT"} ,{name:"Transcation \n charges", futures:"NSE: 0.00035% \n BSE: 0.00045%", options:"NSE: 0.00311% \n BSE:0.001%"},{name:"GST" , futures:"18% on (brokerage + SEBI \n charges + transaction \n charges)", options:"18% on (brokerage + SEBI \n charges + transaction \n charges)" } , {name:"SEBI charges",futures:"₹10 / crore", options:"₹10 / crore"},{name:"Stamp charges" ,futures:"0.001% or ₹100 / crore on \n buy side", options:"0.001% or ₹10 / crore on \n buy side"} ]}
       commoditytable={[{name:"Brokerage" , futures:"0.03% or ₹20/executed order whichever is lower" , options:"₹20/executed order"}, {name:"STT/CTT" , futures:"0.01% on sell side(Non-Agri)" , options:"0.05% on sell side"}, {name:"Transaction \n charges" , futures:"MCX: 0.0021% \n NSE: 0.0001%" , options:"MCX: 0.0418% \n NSE: 0.0001%"}, {name:"GST" , futures:"18% on (brokerage + SEBI \n charges + transaction \n charges)", options:"18% on (brokerage + SEBI \n charges + transaction \n charges)" },{name:"SEBI charges",futures:"Agri: \n ₹1 / crore \n Non-Agri: \n ₹10 / crore", options:"₹10 / crore"}, {name:"Stamp charges" ,futures:"0.002% or ₹200 / crore on \n buy side", options:"0.003% or ₹300 / crore on \n buy side"}]}/>
       <Tempcalc/>
+      {/* <CalculatorTable/> */}
       <AccountCharges/>
       <DemateAMC/>
       <OptionalCharges/>
